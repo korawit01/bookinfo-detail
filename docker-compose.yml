@@ -1,0 +1,7 @@
+services:
+  details:
+    build: .
+    image: ghcr.io/korawit01/bookinfo-details:dev
+    ports:
+      - "8080:8080"
+
